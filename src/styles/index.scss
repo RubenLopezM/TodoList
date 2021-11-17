@@ -1,13 +1,15 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+input{
+   margin: 1rem 0.5rem 1rem 1rem;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.task{
+    cursor: pointer;
+}
 
-*/
+.addtask{
+    background: rgba(5, 32, 155, 0.808);
+    color: white;
+    font-weight: bold;
+}
